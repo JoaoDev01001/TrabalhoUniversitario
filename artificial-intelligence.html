@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligência Artificial - Carreira e Formação</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Estilo base para os elementos interativos */
+        .interativo {
+            position: relative;
+            background-color: #FEF9C3; /* cor base */
+            padding: 1rem;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .interativo:hover {
+            background-color: #FBBF24; /* cor ao passar o mouse */
+            transform: scale(1.05); /* leve aumento */
+        }
+
+        .interativo p {
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, opacity 0.3s ease;
+        }
+
+        .interativo:hover p {
+            max-height: 150px; /* ajustável conforme o conteúdo */
+            opacity: 1;
+        }
+
+        /* Estilo adicional para h3 dentro de interativo */
+        .interativo h3 {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <header class="bg-green-400 py-8">
+        <h1 class="text-4xl font-bold text-center text-gray-900">Inteligência Artificial</h1>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <div class="grid md:grid-cols-2 gap-8">
+            <!-- Áreas de Atuação -->
+            <section class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold mb-4 text-green-600">Áreas de Atuação</h2>
+                <ul class="space-y-4">
+                    <li class="interativo">
+                        <h3>Automação Industrial</h3>
+                        <p>Desenvolvimento de robôs e sistemas que otimizam processos em fábricas.</p>
+                    </li>
+                    <li class="interativo">
+                        <h3>Análise de Dados e Cibersegurança</h3>
+                        <p>Identificação de padrões em grandes volumes de dados e proteção de informações.</p>
+                    </li>
+                    <li class="interativo">
+                        <h3>Medicina</h3>
+                        <p>Neurologia, cirurgias robóticas e sistemas de diagnóstico.</p>
+                    </li>
+                    <li class="interativo">
+                        <h3>Educação</h3>
+                        <p>Plataformas adaptativas de aprendizado.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- Formações -->
+            <section class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold mb-4 text-green-600">Formações</h2>
+                <div class="space-y-4">
+                    <div class="interativo">
+                        <h3>Graduação</h3>
+                        <p>Engenharia de Software e Dados com foco em IA</p>
+                    </div>
+                    <div class="interativo">
+                        <h3>Especialização</h3>
+                        <p>Engenharia de Software para Ciências de Dados</p>
+                    </div>
+                    <div class="interativo">
+                        <h3>Cursos Técnicos</h3>
+                        <p>Formação para Engenheiro de IA 4.0</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Remuneração -->
+        <section class="mt-8 bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-4 text-green-600">Remuneração</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="interativo">
+                    <h3>Júnior</h3>
+                    <p>R$ 3.000 - R$ 8.000</p>
+                </div>
+                <div class="interativo">
+                    <h3>Pleno/Sênior</h3>
+                    <p>R$ 18.000 - R$ 21.000</p>
+                </div>
+                <div class="interativo">
+                    <h3>Especialista</h3>
+                    <p>Até R$ 40.000</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="mt-8 bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-2xl font-bold mb-4 text-green-600">Habilidades e Competências</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="interativo">
+                    <h3>Curiosidade</h3>
+                    <p>Essencial para inovação e descoberta de novas tecnologias</p>
+                </div>
+                <div class="interativo">
+                    <h3>Pensamento Lógico</h3>
+                    <p>Base para resolução eficiente de problemas</p>
+                </div>
+                <div class="interativo">
+                    <h3>Raciocínio Analítico</h3>
+                    <p>Capacidade de avaliar dados e melhorar processos</p>
+                </div>
+            </div>
+        </section>
+        <!-- Perspectivas Profissionais -->
+<section class="mt-8 bg-white rounded-lg shadow-lg p-6">
+    <h2 class="text-2xl font-bold mb-4 text-green-600">Perspectivas Profissionais</h2>
+    <div class="space-y-4">
+        <div class="interativo">
+            <h3>Demanda Crescente</h3>
+            <p>O mercado de IA cresce cerca de 20% ao ano, com empresas de diversos setores buscando especialistas em automação, análise de dados e desenvolvimento de algoritmos.</p>
+        </div>
+        <div class="interativo">
+            <h3>Carreiras Diversificadas</h3>
+            <p>Desde cientistas de dados até engenheiros de aprendizado de máquina, as opções são vastas. Profissionais podem trabalhar em startups, multinacionais e até em pesquisa acadêmica.</p>
+        </div>
+        <div class="interativo">
+            <h3>Impacto Global</h3>
+            <p>IA está transformando setores como saúde, finanças, transporte e educação. As inovações impulsionadas por IA estão moldando o futuro da sociedade e dos negócios.</p>
+        </div>
+        <div class="interativo">
+            <h3>Salários Atrativos</h3>
+            <p>Os salários na área de IA geralmente estão acima da média do mercado, especialmente para especialistas e profissionais com experiência em projetos de larga escala.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Curiosidades sobre IA -->
+<section class="mt-8 bg-white rounded-lg shadow-lg p-6">
+    <h2 class="text-2xl font-bold mb-4 text-green-600">Curiosidades sobre Inteligência Artificial</h2>
+    <div class="space-y-4">
+        <div class="interativo">
+            <h3>A Origem do Nome</h3>
+            <p>O termo "Inteligência Artificial" foi usado pela primeira vez em 1956, durante uma conferência em Dartmouth, EUA.</p>
+        </div>
+        <div class="interativo">
+            <h3>O Primeiro Jogo</h3>
+            <p>Em 1997, o Deep Blue, um computador da IBM, derrotou o campeão mundial de xadrez Garry Kasparov, marcando um marco na história da IA.</p>
+        </div>
+        <div class="interativo">
+            <h3>IA no Cinema</h3>
+            <p>Filmes como *Ex Machina* e *Eu, Robô* abordam conceitos de IA e levantam questões sobre ética e convivência com máquinas inteligentes.</p>
+        </div>
+        <div class="interativo">
+            <h3>Aprendizado sem Fim</h3>
+            <p>Algoritmos de aprendizado profundo, como as redes neurais, podem treinar por dias ou semanas para aprender padrões complexos.</p>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+
+    <footer class="bg-gray-100 mt-8 py-4">
+        <p class="text-center text-gray-600">© 2024 Carreira em Inteligência Artificial | João Paulo Pinheiro; Uendel Lima; Allysson Azeredo; Daniel Josue Acosta & Guilherme da Silva</p>
+    </footer>
+</body>
+</html>
